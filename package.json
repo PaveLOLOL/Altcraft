@@ -1,0 +1,8 @@
+{
+	"name": "titanic",
+	"version": "0.0.1",
+	"author": "Pavel",
+	"scripts": {
+		"start": "node index.js"
+	}
+}
