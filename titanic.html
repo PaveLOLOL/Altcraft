@@ -6,11 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Titanic</title>
     <link rel="stylesheet" href="./titanic.css">
+    <style>
+        body{
+            background: #3a2820 url(./titanik-korabl-zakat.jpg) no-repeat center center fixed;
+            color: #fff;
+            background-size: cover;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
         <h1>Titanic</h1>
     </div>
+
+    <div class="box">     
+        <input type="text" placeholder="Введите имя пассажира">
+        <button>Поиск</button>
+    </div>
+
+    <div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Gender</th>
+                    <th>Ticket</th>
+                    <th>Cabin</th>
+                    <th>Age</th>
+                    <th>Survived</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Allen, Miss. Elisabeth Walton</td>
+                    <td>Famele</td>
+                    <td>24160</td>
+                    <td>B5</td>
+                    <td>29</td>
+                    <td>Yes</td>
+                </tr>
+            </tbody>
+        </table>
+     </div>
 
     <script src="titanic.js"></script>
 </body>
