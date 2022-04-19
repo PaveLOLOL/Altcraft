@@ -6,11 +6,11 @@ xhttps.onreadystatechange = function(){
    }
 }
 
-xhttps.open('GET', ' https://github.com/altkraft/for-applicants/raw/master/frontend/titanic/passengers.json', true)
+xhttps.open('GET', ' http://localhost:5000/', true)
 xhttps.send();
 
 function getAnswerFromServer(data) {
-    console.log(data)
+    console.log('AJAX -запрос успешно выполнен', data)
 }
 
 
