@@ -2,7 +2,7 @@
 
 console.log('доступ есть')
 
-const url = 'http://localhost:5000/'
+const url = 'http://localhost:8080/data'
 
   const getData = async (url) => {
     const res = await fetch(url)
@@ -29,11 +29,11 @@ if (typeof main() === 'object') {
 
 let intersectionObserver = new IntersectionObserver(function(entries) {
     if (entries[0].intersectionRatio <= 0) return;
-  
+
     loadItems(15);
     console.log('Loaded new items');
   });
- 
+
   intersectionObserver.observe(document.querySelector('.scrollerFooter'));
 
   // todo 2) посмотреть как отрабатывает querySelector('.content'),
