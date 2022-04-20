@@ -10,7 +10,7 @@ xhttps.open('GET', ' http://localhost:5000/', true)
 xhttps.send();
 
 function getAnswerFromServer(data) {
-    console.log('AJAX -запрос успешно выполнен', data)
+    console.log('AJAX is work', data)
 }
 
 

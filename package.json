@@ -3,9 +3,9 @@
 	"version": "0.0.1",
 	"author": "Pavel",
 	"main": "src/titanic.js",
+	"type": "module",
 	"scripts": {
 		"start": "node index.js",
-		"type": "module"
 	},
 	"dependencies": {
 		"nodemon": "^2.0.15"
